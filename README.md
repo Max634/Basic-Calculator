@@ -1,2 +1,11 @@
-# Basic-Calculator
-This calculator will able to only add variable. Also, I found it very helpful to those people, who wants to learn C++ language, and start from something.
+#include <iostream>
+  using namespace std;
+  int main {
+  double num1, num2;
+  cout << " Enter first number";
+  cin >> num1;
+  cout << " Enter second number";
+  cin >> num2;
+  cout << num1+num2;
+  return 0
+  }
